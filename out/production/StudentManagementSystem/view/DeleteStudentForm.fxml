@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteStudentFormController">
+   <children>
+      <TextField fx:id="txtStudentID" layoutX="16.0" layoutY="19.0" promptText="123456789V" />
+      <JFXButton id="mButton" buttonType="RAISED" layoutX="205.0" layoutY="14.0" onAction="#StudentSearchOnAction" stylesheets="@../StyleSheets/styleSheet.css" text="Search" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXTextField fx:id="txtStudentName" labelFloat="true" layoutX="24.0" layoutY="75.0" prefHeight="26.0" prefWidth="332.0" promptText="Student Name" />
+      <JFXTextField fx:id="txtStudentAge" labelFloat="true" layoutX="21.0" layoutY="129.0" prefHeight="26.0" prefWidth="268.0" promptText="Student Age" />
+      <JFXTextField fx:id="txtStudentTel" labelFloat="true" layoutX="21.0" layoutY="187.0" prefHeight="26.0" prefWidth="268.0" promptText="Student Tel" />
+      <JFXTextField fx:id="txtStudentEmail" labelFloat="true" layoutX="25.0" layoutY="239.0" prefHeight="26.0" prefWidth="154.0" promptText="Student Email" />
+      <JFXButton id="mButton" buttonType="RAISED" layoutX="203.0" layoutY="302.0" onAction="#StudentDeleteOnAction" prefHeight="26.0" prefWidth="127.0" stylesheets="@../StyleSheets/styleSheet.css" text="Delete" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

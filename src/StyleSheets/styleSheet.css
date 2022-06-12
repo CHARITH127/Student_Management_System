@@ -1,0 +1,19 @@
+#dashboard{
+    -fx-background-color: rgba(46, 105, 248, 0.67);
+}
+#serchStudentContext{
+    -fx-background-color: #be73fd;
+}
+#loginContext{
+    -fx-background-color: blue;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+
+}
+#navigationBar{
+    -fx-background-color: blue;
+}
+
+#mButton{
+    -fx-background-color: blue;
+}
