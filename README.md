@@ -1,9 +1,8 @@
-##Personal Profile
-##This is the project of the personal website<br><br>
+##Student Managemnt System
 
 --- This is the project that I created to a institute to manage students details;
 
-##Home page
+##Home Window
 
 ![Screenshot](src/assests/readMeCoverImage/StudentManagmentSystem.png)
 
